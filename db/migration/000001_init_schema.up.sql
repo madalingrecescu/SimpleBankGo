@@ -1,5 +1,5 @@
 CREATE TABLE "accounts" (
-                            "id" integer PRIMARY KEY,
+                            "id" serial PRIMARY KEY,
                             "owner" varchar NOT NULL,
                             "balance" bigint NOT NULL,
                             "currency" varchar NOT NULL,
